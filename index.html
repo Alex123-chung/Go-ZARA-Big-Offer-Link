@@ -106,9 +106,8 @@
 
     <div class="music">
       <button id="musicBtn" onclick="toggleMusic()">Play our song 🎶</button>
-      <audio id="song" loop>
-        <source src="song.mp3" type="audio/mpeg" />
-      </audio>
+      <audio id="song" src="song.mp3"></audio>
+<button onclick="document.getElementById('song').play()">Play our song 🎶</button>
       <div style="margin-top:8px; font-size:.85rem; opacity:.9;">Tap once to feel the vibe 💞</div>
     </div>
   </div>
